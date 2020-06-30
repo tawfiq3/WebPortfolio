@@ -6,7 +6,13 @@ body{
 h1{
     font-size: 50px;
 }
-.name-highlight{
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
+.orange-highlight{
     color: orangered;
 }
 .half-width{
@@ -25,6 +31,7 @@ h1{
 }
 section{
     height: 500px;
+    padding-bottom: 200px;
 }
 .button{
     background-image: linear-gradient(lightsalmon,tomato);
@@ -34,4 +41,28 @@ section{
     font-weight: bold;
     color: white;
 
+}
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat:no-repeat;
+    background-position: right;
+}
+.b-shadow{
+    box-shadow: 10px 10px 40px gray;
+    height: 80%;
+}
+.experiance{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#first-half{
+    border-left: 7px solid;
+    border-image: linear-gradient(180, lightsalmon tomato);
+    border-image-slice: 1;
+}
+#second-half{
+    border-left: 7px solid;
+    border-image: linear-gradient(180, blue cyan);
+    border-image-slice: 1;
 }
